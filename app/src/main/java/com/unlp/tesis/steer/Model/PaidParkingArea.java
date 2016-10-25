@@ -7,16 +7,16 @@ package com.unlp.tesis.steer.Model;
 public class PaidParkingArea {
 
     private float radius;
-    private float Latitude;
-    private float Longitude;
+    private float latitude;
+    private float longitude;
 
     public PaidParkingArea() {
     }
 
     public PaidParkingArea(float radius, float latitude, float longitude) {
         this.radius = radius;
-        Latitude = latitude;
-        Longitude = longitude;
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 
     public float getRadius() {
@@ -28,18 +28,18 @@ public class PaidParkingArea {
     }
 
     public float getLatitude() {
-        return Latitude;
+        return latitude;
     }
 
     public void setLatitude(float latitude) {
-        Latitude = latitude;
+        this.latitude = latitude;
     }
 
     public float getLongitude() {
-        return Longitude;
+        return longitude;
     }
 
     public void setLongitude(float longitude) {
-        Longitude = longitude;
+        this.longitude = longitude;
     }
 }
