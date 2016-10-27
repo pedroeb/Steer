@@ -33,14 +33,14 @@ public class SteerDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(DatabaseContract.PaidParkingArea.SQL_CREATE_PAIDPARKINGAREA_TABLE);
-        db.execSQL(DatabaseContract.Alert.SQL_CREATE_ALERT_TABLE);
+        db.execSQL(SteerContract.PaidParkingArea.SQL_CREATE_PAIDPARKINGAREA_TABLE);
+        db.execSQL(SteerContract.Alert.SQL_CREATE_ALERT_TABLE);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL(DatabaseContract.PaidParkingArea.SQL_CREATE_PAIDPARKINGAREA_TABLE);
-        db.execSQL(DatabaseContract.Alert.SQL_CREATE_ALERT_TABLE);
+        db.execSQL(SteerContract.PaidParkingArea.SQL_CREATE_PAIDPARKINGAREA_TABLE);
+        db.execSQL(SteerContract.Alert.SQL_CREATE_ALERT_TABLE);
         onCreate(db);
     }
 }
