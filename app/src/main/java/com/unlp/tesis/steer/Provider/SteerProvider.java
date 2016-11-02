@@ -22,7 +22,7 @@ public class SteerProvider extends ContentProvider {
     private SteerDbHelper mDbHelper;
     private ContentResolver resolver;
 
-    private SteerProvider() {
+    public SteerProvider() {
     }
 
     // [URI_MATCHER]

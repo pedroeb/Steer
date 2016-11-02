@@ -15,7 +15,7 @@ public class SteerDbHelper extends SQLiteOpenHelper {
 
     private static SteerDbHelper sInstance;
 
-    private SteerDbHelper(Context context) {
+    public SteerDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
