@@ -19,9 +19,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Created by pedro on 02/11/16.
- */
 @RunWith(AndroidJUnit4.class)
 public class TestDb {
 
